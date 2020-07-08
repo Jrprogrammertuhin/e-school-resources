@@ -1,0 +1,43 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+.abc{
+    padding: 20px 40px;
+    background-color: #F0FFF0;
+}
+.left{
+    border: 1px solid orange;
+}
+.carousel-inner{
+    padding: 50px 50px;
+}
+.card-body{
+    border-radius: 5px;
+}
+.def img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.container{
+    padding-bottom: 50px;
+}
+ .abc h6{
+    color: sandybrown;
+}
+.container h1{
+    color: purple;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.container img{
+    width: 100px;
+    height: 80px;
+}
+.container button{
+    border-radius: 8px;
+    background-color: rgb(74, 177, 118);
+}
