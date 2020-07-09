@@ -2,15 +2,28 @@ body{
     margin: 0px auto;
     padding: 0px;
 }
-.abc{
-    padding: 20px 40px;
-    background-color: #F0FFF0;
+.container{
+    border-bottom: 50px;
 }
-.left{
-    border: 1px solid orange;
+a{
+    color: black;
+    font-weight: bold;
+}
+.abc{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 20px;
+    background-color: #F0FFF0;
+    height: 85px;
+}
+.my-pic{
+    border-radius: 50%;
+}
+.abc h1 b{
+    color: rgb(20, 161, 107);
 }
 .carousel-inner{
     padding: 50px 50px;
+    background-color: #F0FFF0;
 }
 .card-body{
     border-radius: 5px;
@@ -28,16 +41,104 @@ body{
  .abc h6{
     color: sandybrown;
 }
-.container h1{
+.lecture-class h1{
     color: purple;
-    padding-bottom: 50px;
+    margin-top: 15px;
     text-align: center;
 }
-.container img{
-    width: 100px;
-    height: 80px;
+
+.calendar img{
+    width: 20px;
 }
-.container button{
-    border-radius: 8px;
-    background-color: rgb(74, 177, 118);
+.left-people img{
+    width: 20px;
+    float: left;
+}
+.btn-success{
+    border-radius: 20px;
+}
+
+
+/* .testimonial{
+    padding: 50px 50px;
+    text-align: center;
+    border: 1px solid orange;
+} */
+
+.online-course{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.calendar img{
+    float: left;
+}
+.date-fixed{
+    margin-top: 15px;
+}
+.date-fixed p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px lightgray;
+    margin-top: 40px;
+    background-color: #F0FFF0;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: white;
+}
+
+
+.testimonial h1{
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.testimonial {
+    width: 900px;
+    height: 200px;
+}
+.personal-detailes img{
+    float: left;
+}
+.personal-detailes p{
+    float: right;
+    width: 700px;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color:lightslategray;
+}
+.footer-bg{
+    background-color: #282531;
+    margin-top: 100px;
+}
+.r{
+    margin-top: 20px;
+}
+.list-design li{
+    list-style: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list-design li a{
+    color: rgba(163, 110, 59, 0.952);
+}
+.list-design p{
+    padding: 70px 20px;
+    color: gainsboro;
+}
+.list-design h4{
+    color: grey;
+}
+.footer-finish{
+    color: purple;
+}
+.footer-finish:hover{
+    color: whitesmoke
+}
+.footer-finish h6{
+    text-align: center;
 }
